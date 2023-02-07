@@ -23,15 +23,3 @@ void	*ft_memset(void *str, int c, size_t len)
 		s[i++] = c;
 	return (str);
 }
-/*
-int main()
-{
-	char str[12] = "Hello world";
-	printf("Before memset: %s", str);
-
-	ft_memset(str + 1, '\0', 5);
-	printf("\nAfter memset: %s\n", str);
-
-	return (0);
-}
-*/
