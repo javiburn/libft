@@ -55,16 +55,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ft_strlcpy(p, s1 + i, (f - i + 2));
 	return (p);
 }
-
-/*
-int main()
-{
-	char *s1 = "             ";
-	char *set = " ";
-	char *p;
-	p = ft_strtrim(s1, set);
-	printf("%s\n", p);
-	free(p);
-	return (0);
-}
-*/
