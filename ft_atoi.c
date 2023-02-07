@@ -40,16 +40,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return (0);
 }
-/*
-#include <stdio.h>
-int main()
-{
-	const char *s = "+-546";
-	int	n;
-
-	n = ft_atoi(s);
-	printf("%d", n);
-
-    return 0;
-}
-*/
