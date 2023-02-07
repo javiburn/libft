@@ -18,12 +18,3 @@ int	ft_toupper(int c)
 		c = c - 32;
 	return (c);
 }
-/*
-int main()
-{
-	char c = 'n';
-	c = ft_toupper(c);
-	printf("%c\n", c);
-	return (0);
-}
-*/
