@@ -38,14 +38,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-/*
-int main()
-{
-	char src[30] = "lorem ipsum dolor sit a";
-    char dest[9] = "l";
-	char *p;
-    printf("src: %s y dest: %s", src, dest);
-    p = ft_memmove(((void *)0), ((void *)0), 8);
-    printf("\nsrc: %s y dest: %s y %s", src, dest, p);
-}
-*/
