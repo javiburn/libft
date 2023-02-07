@@ -27,15 +27,3 @@ char	*ft_strrchr(const char *str, int c)
 	}
 	return (NULL);
 }
-/*
-int main()
-{
-	char s[33]= "Hello world";
-	char c = 'P';
-	char *ptr;
-
-	ptr = ft_strrchr(s, c);
-	printf("%s", ptr);
-	return (0);
-}
-*/
