@@ -29,14 +29,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-/*
-int main()
-{
-	char s[20] = {'q', 'r', 's', 't', 'p', 'a', 'x'};
-	char *ptr;
-
-	ptr = ft_memchr(s, 'r', 12);
-	printf("%c", *ptr+3);
-	return (0);
-}
-*/
