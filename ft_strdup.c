@@ -31,15 +31,3 @@ char	*ft_strdup(const char *s)
 	ptr[n] = '\0';
 	return (ptr);
 }
-/*
-int main()
-{
-	char s[12] = "Hello world";
-	char *p;
-
-	p = ft_strdup(s);
-	printf("%s", p);
-	free(p);
-	return (0);
-}
-*/
