@@ -34,15 +34,3 @@ size_t	ft_strlcat(char *dest, const char *src, size_t destsize)
 	dest[i] = '\0';
 	return (count);
 }
-/*
-int main()
-{
-	char dest[3] = "\0";
-	char src[] = "jajaja";
-	int r;
-
-	r = ft_strlcat(dest, src, 10);
-	printf("%s and %d", dest, r);
-	return (0);
-}
-*/
