@@ -40,16 +40,3 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 		return ((char *)big + i);
 	return (NULL);
 }
-/*
-#include <stdio.h>
-int main()
-{
-	const char *s1 = "lorem ipsum dolor sit amet";
-	const char *s2 = "consectetur";
-	size_t max = ft_strlen((char *)s1);
-	char *ptr;
-	ptr = ft_strnstr(s1, s2, 30000009);
-	printf("%s", ptr);
-	return (0);
-}
-*/
