@@ -32,13 +32,3 @@ void	ft_putnbr_fd(int n, int fd)
 		write(fd, &n, 1);
 	}
 }
-/*
-#include <unistd.h>
-int main()
-{
-	int	n = -234567654;
-	int fd = 1;
-	ft_putnbr_fd(n, fd);
-	return (0);
-}
-*/
