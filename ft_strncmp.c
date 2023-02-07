@@ -25,13 +25,3 @@ int	ft_strncmp(const char *str1, const char *str2, size_t num)
 		return ((unsigned char)str1[i] - (unsigned char)str2[i]);
 	return (0);
 }
-/*
-int main()
-{
-	char k[20] = "holajaja";
-    char i[9] = "hola";
-    int n;
-    n = ft_strncmp(k, i, 10000000000);
-    printf("%d", n);
-}
-*/
