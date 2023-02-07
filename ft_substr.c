@@ -31,14 +31,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ft_strlcpy(str, s + start, len + 1);
 	return (str);
 }
-/*
-int main()
-{
-	char	*s = "hola mundo";
-	char 	*p;
-	p = ft_substr(s, 5, 3);
-	printf("%s", p);
-	free(p);
-	return (0);
-}
-*/
