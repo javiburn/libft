@@ -25,18 +25,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
-/*
-void f(unsigned int i, char *c)
-{
-	char	j;
-	j = c[i] + 5;
-	write(1, &j, 1);
-}
-int main()
-{
-	char str1[] = "abc";
-	unsigned int n = 1;
-	ft_striteri(str1, *f);
-	return (0);
-}
-*/
