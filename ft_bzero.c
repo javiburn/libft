@@ -28,29 +28,3 @@ void	ft_bzero(void *s, size_t n)
 		}
 	}
 }
-/*
-int main()
-{
-	char	s[12] = "Hello world";
-	printf("%s\n", s);
-	ft_bzero(s+9, 1);
-	printf("%s", s);
-	return (0);
-}
-
-
-
-
-
-
-int main() {
-    char s[11]= "Hello world";
-    
-    printf("Hello world");
-    bzero(s+7, 1);
-    
-    printf("\n%s", s);
-    
-    return 0;
-}
-*/
