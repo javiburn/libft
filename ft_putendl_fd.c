@@ -21,13 +21,3 @@ void	ft_putendl_fd(char *s, int fd)
 		write(fd, &s[n++], 1);
 	write(fd, "\n", 1);
 }
-/*
-#include <unistd.h>
-int main()
-{
-	char	*s = "the cake is a lie !\0I'm hidden lol\r\n";
-	ft_putendl_fd(s, 1);
-	write(1, "|", 1);
-	return (0);
-}
-*/
