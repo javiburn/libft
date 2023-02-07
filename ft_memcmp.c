@@ -37,13 +37,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-/*
-int main()
-{
-	char s[20] = "Hello\200";
-    char p[20]= "Hello\0";
-    int n = ft_memcmp("b\0", "b\200", 2);
-    printf("%d", n);
-	return (0);
-}
-*/
