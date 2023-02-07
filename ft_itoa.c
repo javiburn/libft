@@ -66,13 +66,3 @@ char	*ft_itoa(int n)
 		s[0] = '-';
 	return (s);
 }
-/*
-int main()
-{
-	int	n = -2147483648LL;
-	char *s;
-	s = ft_itoa(n);
-	printf("%s\n%p", s, s);
-	return (0);
-}
-*/
