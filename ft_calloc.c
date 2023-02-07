@@ -25,28 +25,3 @@ void	*ft_calloc(size_t n, size_t size)
 		ptr[i++] = 0;
 	return (ptr);
 }
-/*
-int main()
-{
-	char		*patin;
-	int	piti = 6;
-	int p = 0;
-
-	patin = (char *)ft_calloc(4, 20);
-	while (p < 20)
-	{
-		printf("%c", patin[p]);
-		p++;
-	}
-	p = 0;
-	while (p < 20)
-	{
-		patin[p] = 'a';
-		printf("%c", patin[p]);
-		p++;
-	}
-	free(patin);
-
-	return (0);
-}
-*/
