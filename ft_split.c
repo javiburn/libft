@@ -97,18 +97,3 @@ char	**ft_split(const char *s, char c)
 	}
 	return (ptr);
 }
-
-/*
-int main()
-{
-	const char *s = "jhjj n j hg          j";
-	char	c = ' ';
-	char **p;
-	int n = 0;
-	p = ft_split(s, c);
-	while (n < 19)
-		printf("%s\n", p[n++]);
-	free(p);
-	return (0);
-}
-*/
