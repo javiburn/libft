@@ -37,15 +37,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 		ft_strlcpy(p + n, s2, i + 1);
 	return (p);
 }
-/*
-#include <stdio.h>
-int main()
-{
-	char *pepe;
-	char *maria = "world";
-	char *jesus;
-	jesus = ft_strjoin(pepe, maria);
-	printf("%s", jesus);
-	return (0);
-}
-*/
