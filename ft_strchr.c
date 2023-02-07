@@ -28,15 +28,3 @@ char	*ft_strchr(const char *str, int c)
 		return ((char *)str + ft_strlen((char *)str));
 	return (NULL);
 }
-/*
-int main()
-{
-	char s[33]= "teste";
-	char c = 'e';
-	char *ptr;
-
-	ptr = ft_strchr(s, 't' + 256);
-	printf("%s", ptr);
-	return (0);
-}
-*/
