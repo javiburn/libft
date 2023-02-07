@@ -20,11 +20,3 @@ void	ft_putstr_fd(char *s, int fd)
 	while (s[n] != '\0' && s)
 		write(fd, &s[n++], 1);
 }
-/*
-int main()
-{
-	char	*s = "Hello world";
-	ft_putstr_fd(s, 1);
-	return (0);
-}
-*/
