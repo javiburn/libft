@@ -17,9 +17,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	char	*p;
 	int		n;
 	int		i;
-	int		j;
 
-	j = 0;
 	if (s1[0] == '\0' && s2[0] == '\0')
 	{
 		p = (char *)malloc(1 * sizeof(char));
