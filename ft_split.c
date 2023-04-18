@@ -30,7 +30,7 @@ static int	ft_count(const char *s, char c)
 			check = 0;
 		s++;
 	}
-	return (slices);
+	return (slices + 1);
 }
 
 static char	*ft_sent(const char *s, int len, int n)
